@@ -1,0 +1,79 @@
+.familia {
+    height: 2000px;
+    width: 2000px;
+    border: 2px solid black;
+    /* Se necesita para usar flex box  */
+    display: flex;
+    /* Mover elementos en el eje x o horizontal  */
+    
+    /* Mover elementos en el eje y o vertical  */
+    align-items: center;
+    flex-direction: column;
+} 
+
+
+.madre {
+    height: 700px;
+    width: 700px;
+    border: 2px solid blue;
+    /* Se necesita para usar flex box  */
+    display: flex;
+    /* Mover elementos en el eje x o horizontal  */
+    justify-content: center;
+    /* Mover elementos en el eje y o vertical  */
+    align-items: center;
+    flex-direction: horizontal;
+}
+
+.hija {
+    height: 200px;
+    width: 200px;
+    border: 2px solid yellow;
+} 
+
+
+.padre {
+    height: 700px;
+    width: 700px;
+    border: 2px solid pink;
+    /* Se necesita para usar flex box  */
+    display: flex;
+    /* Mover elementos en el eje x o horizontal  */
+    justify-content: center;
+    /* Mover elementos en el eje y o vertical  */
+    align-items: center;
+    flex-direction: column;
+}
+
+.hijo {
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    display: flex;
+    /* Mover elementos en el eje x o horizontal  */
+    justify-content: center;
+    /* Mover elementos en el eje y o vertical  */
+    align-items: center;
+    flex-direction: column;
+} 
+
+
+
+.bisa {
+    height: 700px;
+    width: 700px;
+    border: 2px solid blueviolet;
+    /* Se necesita para usar flex box  */
+    display: flex;
+    /* Mover elementos en el eje x o horizontal  */
+    justify-content: center;
+    /* Mover elementos en el eje y o vertical  */
+    align-items: center;
+    flex-direction: horizontal;
+}
+
+.abuelo {
+    height: 200px;
+    width: 200px;
+    border: 2px solid orange;
+} 
